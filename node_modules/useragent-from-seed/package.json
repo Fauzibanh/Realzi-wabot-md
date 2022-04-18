@@ -1,0 +1,15 @@
+{
+  "name": "useragent-from-seed",
+  "version": "1.0.1",
+  "description": "Pick a random user agent with a seed",
+  "main": "src/index.js",
+  "repository": "timolins/useragent-from-seed",
+  "author": "Timo Lins <timo.lins@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "randoma": "^1.2.0"
+  }
+}

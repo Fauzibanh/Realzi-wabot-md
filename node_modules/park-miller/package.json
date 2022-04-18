@@ -1,0 +1,48 @@
+{
+	"name": "park-miller",
+	"version": "1.1.0",
+	"description": "Park-Miller pseudorandom number generator (PRNG)",
+	"license": "MIT",
+	"repository": "sindresorhus/park-miller",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"park-miller",
+		"park",
+		"miller",
+		"pseudorandom",
+		"number",
+		"generator",
+		"algorithm",
+		"random",
+		"lcg",
+		"congruential",
+		"integer",
+		"int",
+		"float",
+		"boolean",
+		"seed",
+		"seeded",
+		"prng",
+		"rng",
+		"lehmer"
+	],
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
+	}
+}

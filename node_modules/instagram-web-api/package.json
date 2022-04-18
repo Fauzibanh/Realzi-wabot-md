@@ -1,0 +1,73 @@
+{
+  "name": "instagram-web-api",
+  "version": "2.2.2",
+  "description": "Instagram Private Web API client written in JS",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": "jlobos/instagram-web-api",
+  "author": "Jesus Lobos <jlobitu@gmail.com> (https://jlobos.com)",
+  "scripts": {
+    "lint": "xo",
+    "test": "xo && ava"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "keywords": [
+    "❤️",
+    "🤳",
+    "📷",
+    "instagram",
+    "private",
+    "api",
+    "web",
+    "upload",
+    "like",
+    "comment",
+    "save",
+    "follow",
+    "search",
+    "ig",
+    "photo",
+    "selfie"
+  ],
+  "xo": {
+    "extends": "prettier",
+    "rules": {
+      "camelcase": 0,
+      "no-await-in-loop": 0,
+      "no-unmodified-loop-condition": 0
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "xo --quiet",
+      "prettier --single-quote --no-semi --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "is-url": "^1.2.4",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "tough-cookie": "^3.0.1",
+    "useragent-from-seed": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "eslint-config-prettier": "^2.10.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^10.2.11",
+    "prettier": "^1.19.1",
+    "xo": "^0.20.3"
+  }
+}
